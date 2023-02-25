@@ -18,10 +18,10 @@ env:
   APP_NAME: "hugo-sample"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -38,6 +38,7 @@ jobs:
 
   # Build job
   build:
+    name: Build Hugo job
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.110.0
@@ -72,8 +73,8 @@ jobs:
           path: ./public
 
   deploy_to_production:
-    runs-on: ubuntu-latest
     name: Deploy to ASA instance with source code
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout GitHub Action
         uses: actions/checkout@v2
@@ -83,7 +84,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Deploy to production step with soruce code
+      - name: Deploy to production step with source code
         uses: azure/spring-cloud-deploy@v1
         with:
           azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
