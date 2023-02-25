@@ -1,6 +1,6 @@
 baseurl = "https://hugo.azurespringapps.com"
 DefaultContentLanguage = "en"
-title = "Developer Journey to Azure Spring Apps"
+title = "Azure Spring Apps Community"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
