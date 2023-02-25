@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>code on Developer Journey to Azure Spring Apps</title>
-    <link>https://azurespringapps.com/tags/code/</link>
+    <link>https://hugo.azurespringapps.com/tags/code/</link>
     <description>Recent content in code on Developer Journey to Azure Spring Apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>neven1@vmware.com (nevenc)</managingEditor>
     <webMaster>neven1@vmware.com (nevenc)</webMaster>
-    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://azurespringapps.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo.azurespringapps.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Sample</title>
-      <link>https://azurespringapps.com/post/2016-03-08-code-sample/</link>
+      <link>https://hugo.azurespringapps.com/post/2016-03-08-code-sample/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       <author>neven1@vmware.com (nevenc)</author>
-      <guid>https://azurespringapps.com/post/2016-03-08-code-sample/</guid>
+      <guid>https://hugo.azurespringapps.com/post/2016-03-08-code-sample/</guid>
       <description>&lt;p&gt;The following are two code samples using syntax highlighting.&lt;/p&gt;</description>
     </item>
     

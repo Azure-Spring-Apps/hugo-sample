@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Developer Journey to Azure Spring Apps</title>
-    <link>https://azurespringapps.com/categories/</link>
+    <link>https://hugo.azurespringapps.com/categories/</link>
     <description>Recent content in Categories on Developer Journey to Azure Spring Apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>neven1@vmware.com (nevenc)</managingEditor>
-    <webMaster>neven1@vmware.com (nevenc)</webMaster><atom:link href="https://azurespringapps.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>neven1@vmware.com (nevenc)</webMaster><atom:link href="https://hugo.azurespringapps.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

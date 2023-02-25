@@ -1,4 +1,4 @@
-baseurl = "https://azurespringapps.com"
+baseurl = "https://hugo.azurespringapps.com"
 DefaultContentLanguage = "en"
 title = "Developer Journey to Azure Spring Apps"
 theme = "beautifulhugo"

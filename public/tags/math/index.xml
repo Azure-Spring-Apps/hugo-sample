@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>math on Developer Journey to Azure Spring Apps</title>
-    <link>https://azurespringapps.com/tags/math/</link>
+    <link>https://hugo.azurespringapps.com/tags/math/</link>
     <description>Recent content in math on Developer Journey to Azure Spring Apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>neven1@vmware.com (nevenc)</managingEditor>
     <webMaster>neven1@vmware.com (nevenc)</webMaster>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://azurespringapps.com/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo.azurespringapps.com/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Sample</title>
-      <link>https://azurespringapps.com/post/2017-03-05-math-sample/</link>
+      <link>https://hugo.azurespringapps.com/post/2017-03-05-math-sample/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       <author>neven1@vmware.com (nevenc)</author>
-      <guid>https://azurespringapps.com/post/2017-03-05-math-sample/</guid>
+      <guid>https://hugo.azurespringapps.com/post/2017-03-05-math-sample/</guid>
       <description>&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;
 &lt;p&gt;$$
 \phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
