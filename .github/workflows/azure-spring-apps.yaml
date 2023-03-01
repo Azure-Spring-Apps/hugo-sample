@@ -13,7 +13,7 @@ on:
 env:
   SPRING_APPS_PATH: ${{ github.workspace }}
   AZURE_SUBSCRIPTION: d611a8ae-45e6-4f08-8353-572e149ff4c7
-  BASE_URL: "hugo-sample.azurespringapps.com"
+  BASE_URL: "hugo.azurespringapps.com"
   ASA_NAME: "production"
   APP_NAME: "hugo-sample"
 
@@ -38,7 +38,7 @@ jobs:
 
   # Build job
   build:
-    name: Build Hugo job
+    name: Deploy Hugo website to Azure Spring App instance
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.110.0
@@ -67,17 +67,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ env.BASE_URL }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./public
-
-  deploy_to_production:
-    name: Deploy to ASA instance with source code
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout GitHub Action
-        uses: actions/checkout@v2
 
       - name: Login via Azure CLI
         uses: azure/login@v1
