@@ -91,6 +91,6 @@ jobs:
           action: deploy
           service-name: ${{ env.ASA_NAME }}
           app-name: ${{ env.APP_NAME }}
-          package: ${{ env.ASC_PACKAGE_PATH }}
+          package: ${{ env.ASC_PACKAGE_PATH }}/workspace
           build-env: "-BP_WEB_SERVER nginx"
           use-staging-deployment: false
