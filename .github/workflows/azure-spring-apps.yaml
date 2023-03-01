@@ -13,7 +13,7 @@ on:
 env:
   SPRING_APPS_PATH: ${{ github.workspace }}
   AZURE_SUBSCRIPTION: d611a8ae-45e6-4f08-8353-572e149ff4c7
-  BASE_URL: "hugo.azurespringapps.com"
+  BASE_URL: "https://hugo.azurespringapps.com"
   ASA_NAME: "production"
   APP_NAME: "hugo-sample"
 
