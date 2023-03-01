@@ -11,7 +11,7 @@ on:
 
 # Set environment variables
 env:
-  ASC_PACKAGE_PATH: ${{ github.workspace }}
+  SPRING_APPS_PATH: ${{ github.workspace }}
   AZURE_SUBSCRIPTION: d611a8ae-45e6-4f08-8353-572e149ff4c7
   BASE_URL: "hugo-sample.azurespringapps.com"
   ASA_NAME: "production"
@@ -91,6 +91,6 @@ jobs:
           action: deploy
           service-name: ${{ env.ASA_NAME }}
           app-name: ${{ env.APP_NAME }}
-          package: workspace
+          package: ${{ env.SPRING_APPS_PATH }}
           build-env: "-BP_WEB_SERVER nginx"
           use-staging-deployment: false
